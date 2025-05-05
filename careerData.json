@@ -1,0 +1,372 @@
+{
+  "software-engineer": {
+    "displayName": "Software Engineer",
+    "skills": [
+      { "name": "HTML & CSS", "info": "Fundamental web development skills" },
+      { "name": "JavaScript", "info": "Core programming language of the web" },
+      { "name": "React.js", "info": "A popular frontend framework" },
+      { "name": "Node.js", "info": "Backend JavaScript runtime" },
+      { "name": "Data Structures & Algorithms", "info": "Problem-solving essentials" }
+    ],
+    "resources": [
+      { "title": "MDN Web Docs", "url": "https://developer.mozilla.org" },
+      { "title": "freeCodeCamp", "url": "https://www.freecodecamp.org" },
+      { "title": "LeetCode", "url": "https://leetcode.com" }
+    ],
+    "projects": [
+      {
+        "title": "Personal Portfolio Website",
+        "description": "Showcase your skills and projects.",
+        "tasks": ["Create about/contact/home sections", "Add animations and responsive layout", "Deploy with GitHub Pages"]
+      },
+      {
+        "title": "Task Manager App",
+        "description": "CRUD operations using HTML, JS, and Node.js",
+        "tasks": ["Design the frontend UI", "Implement backend routes", "Connect with MongoDB"]
+      },
+      {
+        "title": "Blog Platform",
+        "description": "Full-stack project with user authentication and post management",
+        "tasks": ["Setup Express.js backend", "Create login/register system", "Build post editor and feed"]
+      }
+    ]
+
+  },
+  "data-scientist": {
+    "displayName": "Data Scientist",
+    "skills": [
+      { "name": "Python", "info": "Primary language for data analysis" },
+      { "name": "Machine Learning", "info": "Predictive modeling & algorithms" },
+      { "name": "Statistics", "info": "Fundamentals of data interpretation" },
+      { "name": "SQL", "info": "Database querying and manipulation" },
+      { "name": "Data Visualization", "info": "Turning data into insights" }
+    ],
+    "resources": [
+      { "title": "Kaggle", "url": "https://www.kaggle.com" },
+      { "title": "Analytics Vidhya", "url": "https://www.analyticsvidhya.com" },
+      { "title": "Coursera Data Science", "url": "https://www.coursera.org" }
+    ],
+    "projects": [
+      {
+        "title": "Exploratory Data Analysis",
+        "description": "Analyze a dataset using Python libraries",
+        "tasks": ["Load data using Pandas", "Plot data distributions", "Summarize insights"]
+      },
+      {
+        "title": "ML Prediction Model",
+        "description": "Build a classification/regression model",
+        "tasks": ["Select dataset", "Clean and preprocess data", "Train/test ML model"]
+      },
+      {
+        "title": "SQL Data Pipeline",
+        "description": "Extract-transform-load (ETL) pipeline",
+        "tasks": ["Design schema", "Import data from CSV", "Write SQL queries for analytics"]
+      }
+    ]
+  },
+  "cyber-security": {
+    "displayName": "Cybersecurity Analyst",
+    "skills": [
+      { "name": "Network Security", "info": "Securing network protocols & data" },
+      { "name": "Ethical Hacking", "info": "Testing systems for vulnerabilities" },
+      { "name": "Cryptography", "info": "Secure communications & encryption" },
+      { "name": "Penetration Testing", "info": "Advanced hacking techniques" },
+      { "name": "Incident Response", "info": "Handling security breaches & threats" }
+    ],
+    "resources": [
+      { "title": "TryHackMe", "url": "https://tryhackme.com" },
+      { "title": "OWASP", "url": "https://owasp.org" },
+      { "title": "Hack The Box", "url": "https://www.hackthebox.com" }
+    ],
+    "projects": [
+      {
+        "title": "Network Scan & Report",
+        "description": "Scan for open ports and vulnerabilities",
+        "tasks": ["Run Nmap scan", "Identify services & vulnerabilities", "Generate a risk report"]
+      },
+      {
+        "title": "Simulate Phishing Attack",
+        "description": "Test user awareness using ethical phishing",
+        "tasks": ["Build fake login page", "Send test emails", "Analyze results"]
+      },
+      {
+        "title": "Web Application Vulnerability Testing",
+        "description": "Test a sample app using OWASP ZAP",
+        "tasks": ["Install OWASP ZAP", "Scan app for OWASP Top 10 issues", "Create a security checklist"]
+      }
+    ]
+  },
+  "cloud-engineer": {
+    "displayName": "Cloud Engineer",
+    "skills": [
+      { "name": "Cloud Fundamentals", "info": "Basics of cloud computing (IaaS, PaaS, SaaS)" },
+      { "name": "AWS or Azure", "info": "Major cloud service providers" },
+      { "name": "Docker & Containers", "info": "Packaging and shipping applications" },
+      { "name": "Kubernetes", "info": "Container orchestration platform" },
+      { "name": "CI/CD Pipelines", "info": "Automating build, test, deployment" }
+    ],
+    "resources": [
+      { "title": "AWS Training", "url": "https://aws.amazon.com/training/" },
+      { "title": "Microsoft Learn (Azure)", "url": "https://docs.microsoft.com/learn/azure" },
+      { "title": "Docker Docs", "url": "https://docs.docker.com/" }
+    ], 
+    "projects": [
+      {
+        "title": "Deploy Static Website on S3",
+        "description": "Host a static site using AWS S3",
+        "tasks": ["Create S3 bucket", "Upload HTML/CSS files", "Configure bucket policy and enable static hosting"]
+      },
+      {
+        "title": "Dockerize Node.js App",
+        "description": "Containerize and deploy a sample web app",
+        "tasks": ["Write Dockerfile", "Build image", "Run container and expose port"]
+      },
+      {
+        "title": "Kubernetes Cluster Setup",
+        "description": "Set up a basic Kubernetes environment",
+        "tasks": ["Install Minikube", "Deploy app using YAML manifest", "Access via Kubernetes service"]
+      }
+    ]
+  },
+  "devops-engineer": {
+    "displayName": "DevOps Engineer",
+    "skills": [
+      { "name": "Linux & Scripting", "info": "Command-line basics & automation" },
+      { "name": "Version Control (Git)", "info": "Collaboration & code management" },
+      { "name": "Jenkins or GitHub Actions", "info": "CI/CD pipeline configuration" },
+      { "name": "Infrastructure as Code", "info": "Tools like Terraform or Ansible" },
+      { "name": "Monitoring & Logging", "info": "Prometheus, Grafana, ELK stack" }
+    ],
+    "resources": [
+      { "title": "DevOps RoadMap", "url": "https://roadmap.sh/devops" },
+      { "title": "Terraform Docs", "url": "https://www.terraform.io/docs" },
+      { "title": "AWS DevOps", "url": "https://aws.amazon.com/devops/" }
+    ],
+    "projects": [
+  {
+    "title": "CI/CD Pipeline with Jenkins",
+    "description": "Automate application build, test, and deploy",
+    "tasks": ["Install Jenkins", "Create pipeline job", "Connect to Git repo"]
+  },
+  {
+    "title": "Infrastructure as Code with Terraform",
+    "description": "Provision AWS infrastructure using Terraform",
+    "tasks": ["Write Terraform configs", "Deploy EC2 and S3", "Destroy resources"]
+  },
+  {
+    "title": "Monitoring Stack Setup",
+    "description": "Implement monitoring and alerting system",
+    "tasks": ["Install Prometheus", "Set up Grafana dashboards", "Configure alerts"]
+  }
+]
+  },
+  "mobile-developer": {
+    "displayName": "Mobile App Developer",
+    "skills": [
+      { "name": "Java/Kotlin (Android)", "info": "Native Android app development" },
+      { "name": "Swift (iOS)", "info": "Native iOS app development" },
+      { "name": "Flutter or React Native", "info": "Cross-platform frameworks" },
+      { "name": "UI/UX for Mobile", "info": "Designing intuitive mobile interfaces" },
+      { "name": "App Deployment", "info": "Publishing to Play Store & App Store" }
+    ],
+    "resources": [
+      { "title": "Android Developers", "url": "https://developer.android.com" },
+      { "title": "Apple Developer", "url": "https://developer.apple.com" },
+      { "title": "Flutter Docs", "url": "https://flutter.dev/docs" }
+    ],
+    "projects": [
+  {
+    "title": "To-Do List Mobile App",
+    "description": "Simple cross-platform to-do manager",
+    "tasks": ["Build UI in Flutter/React Native", "Add task CRUD functionality", "Persist data locally"]
+  },
+  {
+    "title": "Weather App using API",
+    "description": "Real-time weather fetch with REST API",
+    "tasks": ["Use OpenWeatherMap API", "Display location-based weather", "Style with responsive design"]
+  },
+  {
+    "title": "Recipe Book App",
+    "description": "List recipes with ingredients and steps",
+    "tasks": ["Design UI/UX", "Create navigation stack", "Integrate SQLite or local storage"]
+  }
+]
+  },
+  "ui-ux-designer": {
+    "displayName": "UI/UX Designer",
+    "skills": [
+      { "name": "Design Principles", "info": "Color theory, typography, layouts" },
+      { "name": "Wireframing & Prototyping", "info": "Using tools like Figma or Sketch" },
+      { "name": "User Research & Testing", "info": "Gathering feedback & iterating designs" },
+      { "name": "Information Architecture", "info": "Structuring content and navigation" },
+      { "name": "Responsive Design", "info": "Designing for multiple screen sizes" }
+    ],
+    "resources": [
+      { "title": "Figma Learning", "url": "https://www.figma.com/resources/learn-design/" },
+      { "title": "Nielsen Norman Group", "url": "https://www.nngroup.com" },
+      { "title": "Awwwards", "url": "https://www.awwwards.com" }
+    ],
+    "projects": [
+  {
+    "title": "Portfolio Redesign Challenge",
+    "description": "Redesign a portfolio for better UX",
+    "tasks": ["Wireframe new layout", "Create prototype in Figma", "Test user feedback"]
+  },
+  {
+    "title": "Mobile App UX Audit",
+    "description": "Evaluate usability of a popular mobile app",
+    "tasks": ["Identify pain points", "Recommend UX fixes", "Create a case study"]
+  },
+  {
+    "title": "Landing Page Design",
+    "description": "Create modern and engaging landing page UI",
+    "tasks": ["Choose a brand/product", "Use color & typography principles", "Build a prototype"]
+  }
+]
+  },
+  "database-administrator": {
+    "displayName": "Database Administrator",
+    "skills": [
+      { "name": "SQL & Relational Databases", "info": "MySQL, PostgreSQL basics" },
+      { "name": "Database Tuning & Optimization", "info": "Indexing, query optimization" },
+      { "name": "Backup & Recovery", "info": "Safe data storage, restore procedures" },
+      { "name": "Security & Access Control", "info": "User privileges, encryption, auditing" },
+      { "name": "NoSQL Databases", "info": "MongoDB, Cassandra, etc." }
+    ],
+    "resources": [
+      { "title": "MySQL Docs", "url": "https://dev.mysql.com/doc/" },
+      { "title": "PostgreSQL Docs", "url": "https://www.postgresql.org/docs/" },
+      { "title": "MongoDB University", "url": "https://university.mongodb.com" }
+    ],
+    "projects": [
+  {
+    "title": "Employee Management System",
+    "description": "Build schema and CRUD queries",
+    "tasks": ["Create ER diagram", "Build tables in MySQL", "Write queries and joins"]
+  },
+  {
+    "title": "Database Backup & Restore Demo",
+    "description": "Simulate disaster recovery process",
+    "tasks": ["Create backup scripts", "Perform restore from backup", "Document recovery process"]
+  },
+  {
+    "title": "Index Optimization Case Study",
+    "description": "Analyze and optimize query performance",
+    "tasks": ["Compare indexed vs non-indexed queries", "Measure execution time", "Write performance report"]
+  }
+]
+  },
+  "blockchain-developer": {
+    "displayName": "Blockchain Developer",
+    "skills": [
+      { "name": "Blockchain Fundamentals", "info": "Distributed ledger concepts" },
+      { "name": "Ethereum & Smart Contracts", "info": "Solidity for DApp development" },
+      { "name": "Crypto & DeFi", "info": "Tokens, decentralized finance, NFT basics" },
+      { "name": "Hyperledger Fabric", "info": "Private blockchain for enterprise" },
+      { "name": "Security & Auditing", "info": "Smart contract security checks" }
+    ],
+    "resources": [
+      { "title": "Ethereum Dev Docs", "url": "https://ethereum.org/en/developers/" },
+      { "title": "Solidity Docs", "url": "https://docs.soliditylang.org" },
+      { "title": "Hyperledger Foundation", "url": "https://www.hyperledger.org" }
+    ],
+    "projects": [
+  {
+    "title": "ERC-20 Token on Ethereum",
+    "description": "Create and deploy your own token",
+    "tasks": ["Write smart contract in Solidity", "Deploy using Remix or Hardhat", "Verify on Etherscan"]
+  },
+  {
+    "title": "NFT Minting DApp",
+    "description": "A decentralized app to mint NFTs",
+    "tasks": ["Build UI with Web3.js", "Connect MetaMask", "Deploy smart contract"]
+  },
+  {
+    "title": "Blockchain Voting System",
+    "description": "Design a tamper-proof voting platform",
+    "tasks": ["Define smart contract logic", "Integrate frontend", "Deploy and test locally"]
+  }
+]
+
+  },
+  "ai-engineer": {
+    "displayName": "AI/ML Engineer",
+    "skills": [
+      { "name": "Python & TensorFlow/PyTorch", "info": "Building neural networks" },
+      { "name": "Deep Learning Techniques", "info": "CNNs, RNNs, transformers" },
+      { "name": "Data Preprocessing & Cleaning", "info": "Handling messy real-world data" },
+      { "name": "Cloud AI Services", "info": "AWS Sagemaker, Google AI, Azure ML" },
+      { "name": "MLOps", "info": "Deploying & monitoring ML models in production" }
+    ],
+    "resources": [
+      { "title": "TensorFlow Tutorials", "url": "https://www.tensorflow.org/tutorials" },
+      { "title": "PyTorch Docs", "url": "https://pytorch.org/docs/stable/index.html" },
+      { "title": "Fast.ai Courses", "url": "https://www.fast.ai" }
+    ],
+    "projects": [
+  {
+    "title": "Image Classification with CNN",
+    "description": "Build a deep learning model for image classification",
+    "tasks": ["Prepare image dataset", "Train CNN using TensorFlow/Keras", "Evaluate model accuracy"]
+  },
+  {
+    "title": "Chatbot with NLP",
+    "description": "Create a rule-based or ML chatbot",
+    "tasks": ["Use Python NLTK or Rasa", "Train with sample Q&A data", "Deploy to web interface"]
+  },
+  {
+    "title": "ML Model Deployment",
+    "description": "Deploy a trained ML model using Flask API",
+    "tasks": ["Save model using joblib", "Create Flask REST API", "Test with Postman"]
+  }
+]
+  },
+  "game-developer": {
+    "displayName": "Game Developer",
+    "skills": [
+      { "name": "Game Engines (Unity/Unreal)", "info": "Frameworks for building games" },
+      { "name": "C# (Unity) or C++ (Unreal)", "info": "Core programming languages for game dev" },
+      { "name": "Game Design & Prototyping", "info": "Designing gameplay mechanics & levels" },
+      { "name": "3D Graphics & Physics", "info": "3D modeling, collision, animations" },
+      { "name": "Multiplayer & Networking", "info": "Online game architecture & servers" }
+    ],
+    "resources": [
+      { "title": "Unity Learn", "url": "https://learn.unity.com" },
+      { "title": "Unreal Engine Docs", "url": "https://docs.unrealengine.com" },
+      { "title": "Gamasutra (GameDev News)", "url": "https://www.gamedeveloper.com" }
+    ],
+    "projects": [
+  {
+    "title": "2D Platformer Game",
+    "description": "Simple side-scrolling game using Unity",
+    "tasks": ["Design character and levels", "Add physics and controls", "Implement scoring system"]
+  },
+  {
+    "title": "Multiplayer Shooter Game",
+    "description": "Build a networked multiplayer FPS",
+    "tasks": ["Set up Photon Unity Networking", "Create lobby system", "Sync player actions"]
+  },
+  {
+    "title": "Game UI/UX Revamp",
+    "description": "Improve game interface and accessibility",
+    "tasks": ["Redesign HUD", "Add onboarding tutorial", "Improve menu navigation"]
+  }
+], 
+"project-progress-chart": {
+  "displayName": "Project Completion Visual",
+  "description": "Project Completion Progress Chart",
+  "integration": "Progress is calculated by summing tasks completed per project and comparing to total tasks. You can display it in a second doughnut chart or show it alongside skills chart."
+},
+"chart-enhancement": {
+  "displayName": "Dual Progress Chart",
+  "description": "Add a second doughnut chart below the first to show project completion rate distinctly",
+  "implementation": [
+    "Add another <canvas id=\"projectChart\"> in HTML below #progressChart",
+    "In JavaScript, calculate totalProjects, completedProjects, and projectPercent",
+    "Render second Chart.js doughnut using those values with appropriate labels/colors",
+    "Style both charts with titles (Skills vs Projects) and center labels"
+  ]
+}
+
+  }
+}
